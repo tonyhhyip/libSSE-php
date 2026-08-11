@@ -61,7 +61,7 @@ abstract class Utils
     public static function sseBlock($id, $data, $name = null)
     {
         static::sseSend("id: $id\n");
-        if (strlen($name) && $name !== null) {
+        if ($name !== null && strlen($name)) {
             static::sseSend("event: $name\n");
         }
 
