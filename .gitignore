@@ -125,6 +125,7 @@ Desktop.ini
 ## PhpUnit
 ############
 phpunit.xml
+composer.lock
 
 ############
 ## JetBrain
