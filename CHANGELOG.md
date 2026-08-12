@@ -1,6 +1,16 @@
 CHANGELOG
 ===========
 
+## 3.0.0
+
+### Breaking changes
+
+ * required PHP 7.1 or above
+
+### Changes
+
+ * upgrade phpunit
+
 ## 2.1.2
  * Use apcu functions via polyfill for PHP 5.3+ compat
 
