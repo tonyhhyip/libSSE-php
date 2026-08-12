@@ -79,7 +79,7 @@ class SSE implements ArrayAccess
      * @param Request $request
      * @return void
      */
-    public function __construct(Request $request = null)
+    public function __construct(?Request $request = null)
     {
         //if the HTTP header 'Last-Event-ID' is set
         //then it's a reconnect from the client
@@ -173,7 +173,7 @@ class SSE implements ArrayAccess
     public function sendBlock($id, $data, $name = null)
     {
         $this->send("id: {$id}\n");
-        if (strlen($name) && $name !== null) {
+        if ($name !== null && strlen($name)) {
             $this->send("event: {$name}\n");
         }
 
