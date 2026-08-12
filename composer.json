@@ -6,7 +6,6 @@
   "keywords": ["sse"],
   "homepage": "https://github.com/licson0729/libSSE-php",
   "license": "MIT",
-
   "authors": [
     {
       "name": "Licson Lee",
@@ -17,35 +16,29 @@
 
     {
       "name": "Tony Yip",
-      "email": "tony@opensource.hk",
+      "email": "tony@tonyhhyip.me",
       "homepage": "https://github.com/tonyhhyip",
       "role": "Developer"
     }
   ],
-
   "support": {
     "email": "licson0729@gmail.com",
     "issues": "https://github.com/licson0729/libSSE-php/issues/new",
-    "source": "https://github.com/licson0729/libSSE-php"
+    "source": "https://github.com/tonyhhyip/libSSE-php"
   },
-
   "require": {
     "php": ">=7.1",
     "symfony/http-foundation": "~2.7 | >=3.0"
   },
-
   "require-dev": {
-    "phpunit/phpunit": "~4.2 | ~5.0"
+    "phpunit/phpunit": "~7.0"
   },
-
   "autoload": {
     "psr-4": {
       "Sse\\": "src/"
     }
   },
-
   "suggest": {
-    "predis/predis": "For using RedisMechnism",
-    "symfony/polyfill-apcu": "For APCMecnism on PHP < 7.0"
+    "predis/predis": "For using RedisMechnism"
   }
 }

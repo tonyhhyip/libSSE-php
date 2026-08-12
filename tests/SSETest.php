@@ -36,8 +36,9 @@ namespace Sse\Tests;
 
 use Sse\SSE;
 use Symfony\Component\HttpFoundation\Request;
+use PHPUnit\Framework\TestCase;
 
-class SSETest extends \PHPUnit_Framework_TestCase
+class SSETest extends TestCase
 {
 
     public function testConstructor()

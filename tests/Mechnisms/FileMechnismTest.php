@@ -36,8 +36,9 @@ namespace Sse\Tests\Mechnisms;
 
 
 use Sse\Mechnisms\FileMechnism;
+use PHPUnit\Framework\TestCase;
 
-class FileMechnismTest extends \PHPUnit_Framework_TestCase
+class FileMechnismTest extends TestCase
 {
     public function testConstruct()
     {
